@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: portfolio-nextjs
+  description: Portfolio Next.js de Hanin Haj Youssef
+  annotations:
+    github.com/project-slug: HaninHajYoussef/portfolio-nextjs-backstage
+  tags:
+    - nextjs
+    - docker
+    - portfolio
+spec:
+  type: website
+  lifecycle: experimental
+  owner: user:default/guest
